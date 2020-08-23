@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-weight: bold;
+  color: white;
+}
+
+.StarShips {
+  margin: 5rem;
+  height: 20vmin;
+  width: 35vmin;
+  background-color: teal;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+a {
+  color: whitesmoke;
+  background-color: teal;
+  height: 10vmin;
+  width: 20vmin;
+}
+
+a:hover {
+  color: fuchsia;
+}
